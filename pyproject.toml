@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wa-lens"
+version = "0.1.0"
+description = "Export and search YOUR OWN WhatsApp Web browser data (contacts, chats, message metadata, media). MIT, zero-dependency, own-data-only."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Melikhaya Cosbee Zaze" }]
+keywords = ["whatsapp-web", "data-portability", "export", "gdpr", "popia", "forensics", "own-data"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+
+[project.scripts]
+wa-lens = "wa_lens.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["wa_lens*"]
