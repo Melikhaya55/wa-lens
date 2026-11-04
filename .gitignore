@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+# wa-lens exports are PRIVATE own-data — never commit them
+*.jsonl
+exports/
+export/
+wa-lens-demo/
+*.sqlite
+*.db
+media/
