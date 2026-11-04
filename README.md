@@ -58,7 +58,7 @@ Core is free forever under MIT. Sustainable development is funded on top:
 All figures are examples, not current income. Starting cost: [FREE — CONFIRMED ZERO COST].
 
 ## Contributing
-PRs welcome: new browser/OS paths, store parsers, translations (native speakers only), tests. CI runs on Linux/macOS/Windows × Python 3.9–3.13.
+PRs welcome: new browser/OS paths, store parsers, translations (native speakers only), tests. CI workflow is provided as `docs/ci.yml.example` (Linux/macOS/Windows × Python 3.9–3.13) — copy it to `.github/workflows/ci.yml` via the GitHub web UI to enable it (the push token lacks the `workflow` scope).
 
 ## License
 MIT — see LICENSE. © 2026 Melikhaya Cosbee Zaze.
